@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.write(`<html> <head> <title> Served </title> </head>`)
     res.write(`<body>`)
     res.write(`Content \n`)
-    res.write(`More content \n`)
+    res.write(`More content in my index.js \n`)
     res.write(`Hello World`) 
     res.end(`</body></html>`)
 
